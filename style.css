@@ -1,0 +1,140 @@
+* {
+padding: 0;
+margin: 0:
+}
+
+body {
+background-image: url('images/bg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+nav {
+background: transparent;
+height: 90px;
+width: 100%;
+}
+
+label.logo{
+color: black;
+font-size: 50px;
+line-height: 120px;
+padding: 0 100px;
+text-shadow: 2px 2px 4px black;
+
+}
+
+
+nav ul{
+float: right;
+margin-right: 20px;
+
+}
+
+nav ul li{
+display: inline-block;
+line-height: 50px;
+margin: 0 10px;
+
+
+}
+
+.login {
+width: 350px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+color: #000; 
+}
+
+.login h1 {
+font-size: 40px;
+text-align: center;
+text-transform: uppercase;
+margin: 40px 0;
+}
+
+.login p {
+font-size: 20px;
+margin: 15px 0;
+}
+
+.login input {
+font-size: 16px;
+width: 100%;
+padding: 15px 10px;
+border: 0;
+outline: none;
+border-radius: 5px;
+}
+
+.login button {
+font-size: 14px;
+font-weight: bold;
+margin: 20px 0px;
+padding: 10px 15px;
+width: 50%;
+}
+
+
+
+.SU {
+width: 350px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+color: #000; 
+}
+
+.SU h1 {
+font-size: 40px;
+text-align: center;
+text-transform: uppercase;
+margin: 40px 0;
+}
+
+.SU p {
+font-size: 20px;
+margin: 15px 0;
+}
+
+.SU input {
+font-size: 16px;
+width: 100%;
+padding: 15px 10px;
+border: 0;
+outline: none;
+border-radius: 5px;
+}
+
+.SU button {
+font-size: 14px;
+font-weight: bold;
+margin: 20px 0px;
+padding: 10px 15px;
+width: 50%;
+}
+
+.section{
+background-color: #000000;
+display: flex;
+padding: 40px;
+width: 60%;
+margin: 0 auto 0 auto;
+}
+
+
+.section h1{
+margin: 0;
+color: white;
+}
+
+.section p{
+color: #ffffff ;
+margin-right: 15px;
+font-size: 19px;
+}
+
